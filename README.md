@@ -1,5 +1,7 @@
 # A-Stock Agent
 
+![A-Stock Agent investment memo](assets/investment-memo.png)
+
 A-Stock Agent is a LangGraph-based command-line investment research assistant for Chinese A-share stocks.
 
 Given a 6-digit A-share stock code, the system collects market data, money-flow data, company profile information, candlestick charts, short-term forecasts, and recent news. It then runs a multi-agent workflow to produce a structured investment memo with a final `BUY`, `SELL`, or `HOLD` decision.
